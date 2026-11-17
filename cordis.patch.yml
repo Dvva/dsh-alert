@@ -1,0 +1,6 @@
+# dsh-alert —— 挂载声明
+# 安装：dsh plugin --profile desktop add link:<本目录绝对路径>
+# 或者手工把本目录加入 profile 的 node_modules，并在 cordis.patch.yml 里登记。
+- insert:
+    - id: dsh-alert
+      name: dsh-alert
